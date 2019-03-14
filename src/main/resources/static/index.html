@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ClockPicker</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-clockpicker.min.css">
+</head>
+<body>
+<div class="form-group">
+	<div class="clearfix" style="width: 200px;">
+		<div class="input-group clockpicker-with-callbacks">
+			<input type="text" class="form-control" value="10:10">
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/bootstrap-clockpicker.min.js"></script>
+<script type="text/javascript">
+$('.clockpicker-with-callbacks').clockpicker({
+	donetext: 'Done',
+	init: function() { 
+		console.log("colorpicker initiated");
+	},
+	beforeShow: function() {
+		console.log("before show");
+	},
+	afterShow: function() {
+		console.log("after show");
+	},
+	beforeHide: function() {
+		console.log("before hide");
+	},
+	afterHide: function() {
+		console.log("after hide");
+	},
+	beforeHourSelect: function() {
+		console.log("before hour selected");
+	},
+	afterHourSelect: function() {
+		console.log("after hour selected");
+	},
+	beforeDone: function() {
+		console.log("before done");
+	},
+	afterDone: function() {
+		console.log("after done");
+	}
+}).find('input').change(function(){
+	console.log(this.value);
+});
+</script>
+</body>
+</html>

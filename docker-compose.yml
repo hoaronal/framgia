@@ -1,0 +1,10 @@
+version: '3'
+services:
+  framgia-autobot:
+    build:
+      context: ./
+    image: framgia-autobot
+    container_name: framgia-autobot
+    ports:
+      - "8888:8888"
+      - "8787:8787"

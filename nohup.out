@@ -1,0 +1,157 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------------< com.framgia:framgia >-------------------------
+[INFO] Building framgia 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:3.1.0:clean (default-clean) @ framgia ---
+[INFO] Deleting /home/doan.quang.hoa/Project/framgia/target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:resources (default-resources) @ framgia ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 2 resources
+[INFO] Copying 9 resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:compile (default-compile) @ framgia ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 13 source files to /home/doan.quang.hoa/Project/framgia/target/classes
+[INFO] /home/doan.quang.hoa/Project/framgia/src/main/java/com/framgia/job/PostChatWorkJob.java: /home/doan.quang.hoa/Project/framgia/src/main/java/com/framgia/job/PostChatWorkJob.java uses or overrides a deprecated API.
+[INFO] /home/doan.quang.hoa/Project/framgia/src/main/java/com/framgia/job/PostChatWorkJob.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-resources-plugin:3.1.0:testResources (default-testResources) @ framgia ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/doan.quang.hoa/Project/framgia/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.8.0:testCompile (default-testCompile) @ framgia ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/doan.quang.hoa/Project/framgia/target/test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.22.1:test (default-test) @ framgia ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.framgia.FramgiaApplicationTests
+15:30:54.770 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.framgia.FramgiaApplicationTests]
+15:30:54.774 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:30:54.780 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:30:54.796 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.framgia.FramgiaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:30:54.804 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.framgia.FramgiaApplicationTests], using SpringBootContextLoader
+15:30:54.807 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.framgia.FramgiaApplicationTests]: class path resource [com/framgia/FramgiaApplicationTests-context.xml] does not exist
+15:30:54.807 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.framgia.FramgiaApplicationTests]: class path resource [com/framgia/FramgiaApplicationTestsContext.groovy] does not exist
+15:30:54.807 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.framgia.FramgiaApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:30:54.808 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.framgia.FramgiaApplicationTests]: FramgiaApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:30:54.837 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.framgia.FramgiaApplicationTests]
+15:30:54.894 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/doan.quang.hoa/Project/framgia/target/classes/com/framgia/Application.class]
+15:30:54.895 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.framgia.Application for test class com.framgia.FramgiaApplicationTests
+15:30:54.970 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.framgia.FramgiaApplicationTests]: using defaults.
+15:30:54.971 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener]
+15:30:54.985 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5c33f1a9, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1623b78d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@c8c12ac, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@6adbc9d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4550bb58, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4ec4f3a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@223191a6, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@49139829, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@9597028, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6069db50, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4efbca5a, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1b7cc17c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@59662a0b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@77fbd92c]
+15:30:54.986 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.framgia.FramgiaApplicationTests]
+15:30:54.987 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.framgia.FramgiaApplicationTests]
+15:30:54.988 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.framgia.FramgiaApplicationTests]
+15:30:54.988 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.framgia.FramgiaApplicationTests]
+15:30:54.988 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.framgia.FramgiaApplicationTests]
+15:30:54.988 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.framgia.FramgiaApplicationTests]
+15:30:54.991 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4135c3b testClass = FramgiaApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@6302bbb1 testClass = FramgiaApplicationTests, locations = '{}', classes = '{class com.framgia.Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7ce6a65d, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@29b5cd00, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@76a3e297, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@52f759d7], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+15:30:54.992 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.framgia.FramgiaApplicationTests]
+15:30:54.992 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.framgia.FramgiaApplicationTests]
+15:30:55.010 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.3.RELEASE)
+
+2019-04-12 15:30:55.248  INFO 22995 --- [           main] com.framgia.FramgiaApplicationTests      : Starting FramgiaApplicationTests on framgia0170-pc with PID 22995 (started by FRAMGIA\doan.quang.hoa in /home/doan.quang.hoa/Project/framgia)
+2019-04-12 15:30:55.250  INFO 22995 --- [           main] com.framgia.FramgiaApplicationTests      : No active profile set, falling back to default profiles: default
+2019-04-12 15:30:56.330  INFO 22995 --- [           main] com.framgia.config.QuartzConfig          : starting jobs...
+2019-04-12 15:30:56.363  INFO 22995 --- [           main] org.quartz.impl.StdSchedulerFactory      : Using default implementation for ThreadExecutor
+2019-04-12 15:30:56.379  INFO 22995 --- [           main] org.quartz.core.SchedulerSignalerImpl    : Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2019-04-12 15:30:56.379  INFO 22995 --- [           main] org.quartz.core.QuartzScheduler          : Quartz Scheduler v.2.3.0 created.
+2019-04-12 15:30:56.380  INFO 22995 --- [           main] org.quartz.simpl.RAMJobStore             : RAMJobStore initialized.
+2019-04-12 15:30:56.380  INFO 22995 --- [           main] org.quartz.core.QuartzScheduler          : Scheduler meta-data: Quartz Scheduler (v2.3.0) 'PostToChatwork' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 5 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2019-04-12 15:30:56.380  INFO 22995 --- [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler 'PostToChatwork' initialized from an externally provided properties instance.
+2019-04-12 15:30:56.381  INFO 22995 --- [           main] org.quartz.impl.StdSchedulerFactory      : Quartz scheduler version: 2.3.0
+2019-04-12 15:30:56.381  INFO 22995 --- [           main] org.quartz.core.QuartzScheduler          : JobFactory set to: com.framgia.job.JobFactory@659925f4
+2019-04-12 15:30:56.730  INFO 22995 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@58496dc, org.springframework.security.web.context.SecurityContextPersistenceFilter@bc4d5e1, org.springframework.security.web.header.HeaderWriterFilter@14379273, org.springframework.security.web.csrf.CsrfFilter@7cb2651f, org.springframework.security.web.authentication.logout.LogoutFilter@4d774249, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68c87fc3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4992613f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@151db587, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2257fadf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b61a019, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@238acd0b, org.springframework.security.web.session.SessionManagementFilter@17740dae, org.springframework.security.web.access.ExceptionTranslationFilter@3bead518, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@252f626c]
+2019-04-12 15:30:57.128  INFO 22995 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-04-12 15:30:57.319  INFO 22995 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-04-12 15:30:57.467  INFO 22995 --- [           main] o.s.s.quartz.SchedulerFactoryBean        : Starting Quartz Scheduler now
+2019-04-12 15:30:57.467  INFO 22995 --- [           main] org.quartz.core.QuartzScheduler          : Scheduler PostToChatwork_$_NON_CLUSTERED started.
+2019-04-12 15:30:57.479  INFO 22995 --- [           main] com.framgia.FramgiaApplicationTests      : Started FramgiaApplicationTests in 2.462 seconds (JVM running for 3.032)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.944 s - in com.framgia.FramgiaApplicationTests
+2019-04-12 15:30:57.666  INFO 22995 --- [       Thread-3] org.quartz.core.QuartzScheduler          : Scheduler PostToChatwork_$_NON_CLUSTERED paused.
+2019-04-12 15:30:57.667  INFO 22995 --- [       Thread-3] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-04-12 15:30:57.669  INFO 22995 --- [       Thread-3] o.s.s.quartz.SchedulerFactoryBean        : Shutting down Quartz Scheduler
+2019-04-12 15:30:57.669  INFO 22995 --- [       Thread-3] org.quartz.core.QuartzScheduler          : Scheduler PostToChatwork_$_NON_CLUSTERED shutting down.
+2019-04-12 15:30:57.670  INFO 22995 --- [       Thread-3] org.quartz.core.QuartzScheduler          : Scheduler PostToChatwork_$_NON_CLUSTERED paused.
+2019-04-12 15:30:57.670  INFO 22995 --- [       Thread-3] org.quartz.core.QuartzScheduler          : Scheduler PostToChatwork_$_NON_CLUSTERED shutdown complete.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:3.1.1:jar (default-jar) @ framgia ---
+[INFO] Building jar: /home/doan.quang.hoa/Project/framgia/target/framgia-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- spring-boot-maven-plugin:2.1.3.RELEASE:repackage (repackage) @ framgia ---
+[INFO] Replacing main artifact with repackaged archive
+[INFO] 
+[INFO] --- maven-install-plugin:2.5.2:install (default-install) @ framgia ---
+[INFO] Installing /home/doan.quang.hoa/Project/framgia/target/framgia-0.0.1-SNAPSHOT.jar to /home/doan.quang.hoa/.m2/repository/com/framgia/framgia/0.0.1-SNAPSHOT/framgia-0.0.1-SNAPSHOT.jar
+[INFO] Installing /home/doan.quang.hoa/Project/framgia/pom.xml to /home/doan.quang.hoa/.m2/repository/com/framgia/framgia/0.0.1-SNAPSHOT/framgia-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  8.210 s
+[INFO] Finished at: 2019-04-12T15:30:59+07:00
+[INFO] ------------------------------------------------------------------------
+Removing network framgia_default
+Network framgia_default not found.
+Creating network "framgia_default" with the default driver
+Building framgia-autobot
+Step 1/6 : FROM selenium/node-firefox:3.141.59-mercury
+ ---> 41dae291180b
+Step 2/6 : LABEL authors=SeleniumHQ
+ ---> Using cache
+ ---> 5ce2bd2ee9b6
+Step 3/6 : USER seluser
+ ---> Using cache
+ ---> 33bf10a078a4
+Step 4/6 : COPY start-selenium-standalone.sh /opt/bin/start-selenium-standalone.sh
+ ---> 4099a26ac674
+Step 5/6 : COPY selenium.conf /etc/supervisor/conf.d/
+ ---> af751529548c
+Step 6/6 : EXPOSE 4444
+ ---> Running in a0a156662910
+Removing intermediate container a0a156662910
+ ---> f872a6e50929
+Successfully built f872a6e50929
+Successfully tagged framgia:latest
+Creating framgia ... 
+[1A[2KCreating framgia ... [32mdone[0m[1BAttaching to framgia
+[36mframgia            |[0m 2019-04-12 08:31:04,022 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[36mframgia            |[0m 2019-04-12 08:31:04,029 INFO supervisord started with pid 7
+[36mframgia            |[0m 2019-04-12 08:31:05,032 INFO spawned: 'xvfb' with pid 10
+[36mframgia            |[0m 2019-04-12 08:31:05,033 INFO spawnerr: command at '/opt/bin/start-selenium-standalone.sh' is not executable
+[36mframgia            |[0m 2019-04-12 08:31:06,034 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mframgia            |[0m 2019-04-12 08:31:06,035 INFO gave up: selenium-standalone entered FATAL state, too many start retries too quickly
+[36mframgia            |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mframgia            |[0m 2019-04-12 08:34:16,237 WARN received SIGTERM indicating exit request
+[36mframgia            |[0m 2019-04-12 08:34:16,237 INFO waiting for xvfb to die
+[36mframgia            |[0m 2019-04-12 08:34:17,238 INFO stopped: xvfb (terminated by SIGTERM)
+[36mframgia            |[0m Shutdown complete
+[36mframgia exited with code 143
+[0m
